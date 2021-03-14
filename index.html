@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
+    <title>Average Joe's Food Truck</title>
+</head>
+
+<body>
+    <section class="gridg">
+    <header id="nav-bar" class="centered fixed mobile-hide">
+    <div class ="padded-1">
+       <h1 id="title-text">Average Joe's Food Truck</h1>
+        <a href="#about">About</a>
+        <a href="#location">Location</a>
+        <a href="#menu">Menu</a>
+        <a href="#catering">Catering</a>
+    </div>
+    </header>
+</section>
+
+    <section id="first-section" class="grid bg-dark">
+        <div id="header-image" class="col-6_sm-12-middle"> </div>
+            <div id="logo" class="col-6_sm-12-middle padded-1">
+                <!-- <h1 id="title-text">Average Joe's Food Truck</h1> -->
+                <h2 class="padded-1">Make Everyday Above Average</h2>
+                <p>HERE's some filler that's catchy.</p>
+            </div> 
+        
+        <div id="about-section" class="grid">
+            <div class="col-4_sm-6_xs-12">
+                <h2 class="emphasis ">Here's The <br>About Section</h2>
+            </div>
+            <div class="col-8_sm-6_xs-12">
+            <p class="emphasis padded-mobile">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a faucibus sem. 
+                Nam in ligula magna. Sed gravida faucibus purus at aliquet. Pellentesque habitant morbi 
+                tristique senectus et netus et malesuada fames ac turpis egestas. Fusce maximus vitae odio 
+                non tempor. Suspendisse aliquam sem at diam aliquam eleifend. Vivamus at efficitur nisl, eget 
+                feugiat ex. In tempor suscipit odio ut tincidunt. Mauris non risus condimentum, tincidunt 
+                dolor non, laoreet libero. Mauris eget lorem a massa posuere porta vel viverra justo. Donec 
+                pulvinar nibh et orci aliquam rutrum. Etiam dapibus laoreet turpis ut semper. Nam convallis 
+                lacus id nisl mollis, at consectetur tellus egestas. Duis rhoncus, sapien non dignissim porta, 
+                velit tortor consectetur leo, sed vestibulum leo odio a mauris.
+                <br><br>
+                Sed malesuada nulla est, nec ultrices tellus scelerisque in. Cras eu justo mattis, euismod 
+                nunc euismod, suscipit orci. Quisque consectetur vel elit eget ornare. Praesent quis malesuada 
+                neque. Sed efficitur quam vehicula, fermentum nunc eget, tincidunt massa. Aenean eu nunc tortor. 
+                Donec enim nisi, blandit quis mauris et, vestibulum consectetur nunc. Donec facilisis mi sit amet 
+                imperdiet pulvinar. Nulla ac elit tellus. Aenean faucibus commodo ultricies. Suspendisse varius eget 
+                metus eu mattis. Duis sodales diam lacinia accumsan malesuada. Suspendisse ac euismod ex, nec mollis dui. 
+                Proin suscipit, risus venenatis sollicitudin placerat, dui nisl mattis erat, vel congue ante tellus 
+                lobortis sapien.
+            </p>
+            </div>
+        
+        </div> 
+    </section> 
+
+    <section id="picture-break" class="grid"></section> 
+
+    <section id="location-section" class="grid">
+        <div class="col-6">
+            <p>Here's some text about our location or maybe how we move around on a certain schedule.</p>
+        </div>
+        <div class="col-6">
+            <p>This is gonna be a geoloation api element... eventually</p>
+        </div>
+    </section>
+
+    <section id="menu-section" class="grid">
+        <div class="col-12"><h2>Customer Favorites</h2><br>
+        </div>
+        <div id="favorites-photos" class="grid padded-1">
+            <div class="col-4_sm-12 pad-marg-pic">
+                <image src="images/jarritos4.jpg">
+                    <div class="img-overlay">text overlay</div>
+                </image>
+            </div>
+            <div class="col-4_sm-12 pad-marg-pic">
+                <image src="images/jarritos1.jpg">
+                    <div>text overlay</div>
+                </image>
+            </div>
+            <div class="col-4_sm-12 pad-marg-pic">
+                <image src="images/jarritos2.jpg">
+                    <div>text overlay</div>
+                </image>
+            </div>
+            <div class="col-4_sm-12 pad-marg-pic">
+                <image src="images/jarritos3.jpg">
+                    <div>text overlay</div>
+                </image>
+            </div>
+            <div class="col-4_sm-12 pad-marg-pic">
+                <image src="images/jarritos5.jpg">
+                    <div>text overlay</div>
+                </image>
+            </div>
+            <div class="col-4_sm-12 pad-marg-pic">
+                <image src="images/jarritos6.jpg">
+                    <div>text overlay</div>
+                </image>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact-form" class="grid-center">
+        <container class="col-12"> 
+            <h2>Have A Question? Give Us A Shout!</h2>
+        </container>
+            <div class="col-2"></div>
+            <div class="col-6" data-push-left="off-1" data-push-right="off-1">
+                <form action="action_page.php">
+              
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    <br>
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    <br>
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email">
+                    <br>
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    <br>
+                  <input type="submit" value="Submit">
+              
+                </form>
+                
+              </div>
+              <div class="col-2"></div>
+
+    </section>
+
+    <footer>
+        <div class = "col-12">
+        <address>Sample Website Made By <a href="mailto:poultonse@gmail.com">Sarah Poulton</a>&copy</address>
+        </div>
+    </footer>
+
+
+</body>
+<script src ="app.js"></script>
+</html>
