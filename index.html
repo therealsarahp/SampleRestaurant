@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
     <title>Average Joe's Food Truck</title>
 </head>
 
 <body>
-    <section class="gridg">
+    <section class="grid">
     <header id="nav-bar" class="centered fixed mobile-hide">
     <div class ="padded-1">
        <h1 id="title-text">Average Joe's Food Truck</h1>
@@ -22,15 +24,15 @@
     </header>
 </section>
 
-    <section id="first-section" class="grid bg-dark">
-        <div id="header-image" class="col-6_sm-12-middle"> </div>
-            <div id="logo" class="col-6_sm-12-middle padded-1">
+    <section id="first-section" class="grid col1">
+        <div id="header-image" class="col-8_sm-12-middle"> </div>
+            <div id="logo" class="col-4_sm-12-middle padded-1">
                 <!-- <h1 id="title-text">Average Joe's Food Truck</h1> -->
                 <h2 class="padded-1">Make Everyday Above Average</h2>
                 <p>HERE's some filler that's catchy.</p>
             </div> 
         
-        <div id="about-section" class="grid">
+        <div id="about-section" class="grid col2">
             <div class="col-4_sm-6_xs-12">
                 <h2 class="emphasis ">Here's The <br>About Section</h2>
             </div>
@@ -62,7 +64,7 @@
 
     <section id="picture-break" class="grid"></section> 
 
-    <section id="location-section" class="grid">
+    <section id="location-section" class="grid col3">
         <div class="col-6">
             <p>Here's some text about our location or maybe how we move around on a certain schedule.</p>
         </div>
@@ -71,44 +73,73 @@
         </div>
     </section>
 
-    <section id="menu-section" class="grid">
-        <div class="col-12"><h2>Customer Favorites</h2><br>
+    <section id="menu-section" class="grid col1">
+        <div class="col-12">
+            <h2>Customer Favorites</h2><br>
         </div>
+
         <div id="favorites-photos" class="grid padded-1">
+
             <div class="col-4_sm-12 pad-marg-pic">
-                <image src="images/jarritos4.jpg">
-                    <div class="img-overlay">text overlay</div>
-                </image>
+                <div class="gallery">
+                <img src="images/jarritos1.jpg" class="image" alt="tacos">
+                <div class="overlay">OVERLAY EFFECT</div>
             </div>
+            </div>
+
             <div class="col-4_sm-12 pad-marg-pic">
-                <image src="images/jarritos1.jpg">
-                    <div>text overlay</div>
-                </image>
+                <div class="gallery">
+                <img src="images/jarritos2.jpg" class="image" alt="tacos">
+                <div class="overlay">OVERLAY EFFECT</div>
             </div>
+            </div>
+
             <div class="col-4_sm-12 pad-marg-pic">
-                <image src="images/jarritos2.jpg">
-                    <div>text overlay</div>
-                </image>
+                <div class="gallery">
+                <img src="images/jarritos3.jpg" class="image" alt="tacos">
+                <div class="overlay">OVERLAY EFFECT</div>
             </div>
+            </div>
+
             <div class="col-4_sm-12 pad-marg-pic">
-                <image src="images/jarritos3.jpg">
-                    <div>text overlay</div>
-                </image>
+                <div class="gallery">
+                <img src="images/jarritos4.jpg" class="image" alt="tacos">
+                <div class="overlay">OVERLAY EFFECT</div>
             </div>
+            </div>
+
             <div class="col-4_sm-12 pad-marg-pic">
-                <image src="images/jarritos5.jpg">
-                    <div>text overlay</div>
-                </image>
+                <div class="gallery">
+                <img src="images/jarritos5.jpg" class="image" alt="tacos">
+                <div class="overlay">OVERLAY EFFECT</div>
             </div>
+            </div>
+
             <div class="col-4_sm-12 pad-marg-pic">
-                <image src="images/jarritos6.jpg">
-                    <div>text overlay</div>
-                </image>
+                <div class="gallery">
+                <img src="images/jarritos6.jpg" class="image" alt="tacos">
+                <div class="overlay">OVERLAY EFFECT</div>
             </div>
+            </div>
+
+        </div>
+
+        <div id="full-menu btn" class="col-12">
+            <input type="button" class="button" value="SEE OUR FULL MENU"></input>
+            <br>
         </div>
     </section>
 
-    <section id="contact-form" class="grid-center">
+    <section id="catering" class="grid col2">
+        <div class="col-4_sm-12">
+            <h2>We're fun at parties.</h2>
+        </div>
+        <div class="col-8_sm-12">
+            <p>This is hwere information about caatering can go.</p>
+        </div>
+    </section>
+
+    <section id="contact-form" class="grid-center col3">
         <container class="col-12"> 
             <h2>Have A Question? Give Us A Shout!</h2>
         </container>
@@ -137,7 +168,7 @@
 
     </section>
 
-    <footer>
+    <footer class="grid col3">
         <div class = "col-12">
         <address>Sample Website Made By <a href="mailto:poultonse@gmail.com">Sarah Poulton</a>&copy</address>
         </div>
