@@ -5,6 +5,18 @@
     overflow-x: hidden;
   }
 
+.col1{
+    background-color: #f48b29; 
+}
+
+.col2{
+    background-color:#f0c929; 
+}
+
+.col3{
+    background-color: #ac0d0d; 
+}
+
 #nav-bar{
     overflow: hidden;
     background-color:#fbe6c2; 
@@ -21,7 +33,7 @@
     padding: 14px; 
     text-decoration: none; 
     color: #ac0d0d; 
-   ;
+    font-family: 'Cabin', sans-serif;
 
 }
 
@@ -47,14 +59,14 @@
 #header-image{
     background-image: url('images/foodtruck.jpg');
     background-repeat: no-repeat;
-    height:450px; 
+    height: 650px;
 
 }
 
 #first-section{
     background-size: cover;
     position: center; 
-    background-color: #f48b29; 
+    /* background-color: #f48b29;  */
   
 }
 
@@ -68,10 +80,10 @@ h2, h3, h4 {
     margin-bottom: 1rem;
     color: #fbe6c2; 
     text-align: center;
+    font-family: 'Cabin', sans-serif;
 }
 
  #about-section {
-     background-color:#f0c929; 
      text-align: left;
      padding: 5%; 
      border: 5px solid #fbe6c2; 
@@ -80,8 +92,14 @@ h2, h3, h4 {
 
  } 
 
+ h1{
+    font-family: 'Cabin', sans-serif;
+    font-size: xx-large;  
+ }
+
  p{
      color: #fbe6c2; 
+     font-family: 'Cabin', sans-serif;
  }
 
 
@@ -92,40 +110,82 @@ h2, h3, h4 {
 }
 
 .pad-marg-pic { 
-    padding: 5px; 
-    margin: 5% 0 5% 0; 
-    align-content: center;
-    justify-content: center;
-    
-    /* align-items: center;
-    justify-content: center;  
-    align-content: center;  
-    float:center;  */
+    padding: 5px;   
+
 }
 
 
 #location-section{
-    background-color:#ac0d0d; 
     justify-content: center;
     align-content: center;
     padding: 5%; 
 }
 
 #menu-section{
-    background-color: #f48b29;
     justify-content: center;
     align-content: center;
+    text-align: center;
 
 }
 
 #favorites-photos {
-    float: center;
+    padding-left: 7%; 
+    padding-bottom: 3%; 
+}
+
+img{
+    border-radius: 8px;
     align-content: center;
     justify-content: center;
+    box-shadow: #fbe6c2;
+
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
   }
 
+.gallery {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+  }
+
+.overlay{
+        position: absolute;
+        bottom: 0;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5); /* Black see-through */
+        color: #f1f1f1;
+        width: 100%;
+        transition: .5s ease;
+        opacity:0;
+        color: white;
+        font-size: 20px;
+        padding: 20px;
+        text-align: center;
+      }
+
+.gallery:hover .overlay {
+        opacity: 1;
+      }
+
+
+
+.button {
+        background-color: #ac0d0d; 
+        border: solid #f0c929;
+        color: #fbe6c2;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+      }
+
 #contact-form{
-    background-color: #ac0d0d; 
     padding-top: 5%;
 
 }
@@ -163,7 +223,6 @@ input[type=text],input[type=email], textarea {
   footer{
       width: cover; 
       text-align: right; 
-      background-color: #ac0d0d;
       color:#fbe6c2; 
 
   }
