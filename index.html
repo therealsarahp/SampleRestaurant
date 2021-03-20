@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Average Joe's Food Truck</title>
 </head>
 
@@ -17,8 +18,8 @@
     <div class ="padded-1">
        <h1 id="title-text">Average Joe's Food Truck</h1>
         <a href="#about">About</a>
-        <a href="#location">Location</a>
-        <a href="#menu">Menu</a>
+        <a href="#location-section">Location</a>
+        <a href="#menu-section">Menu</a>
         <a href="#catering">Catering</a>
     </div>
     </header>
@@ -32,7 +33,7 @@
                 <p>HERE's some filler that's catchy.</p>
             </div> 
         
-        <div id="about-section" class="grid col2">
+        <div id="about" class="grid col2">
             <div class="col-4_sm-6_xs-12">
                 <h2 class="emphasis ">Here's The <br>About Section</h2>
             </div>
@@ -64,12 +65,20 @@
 
     <section id="picture-break" class="grid"></section> 
 
-    <section id="location-section" class="grid col3">
-        <div class="col-6">
-            <p>Here's some text about our location or maybe how we move around on a certain schedule.</p>
+    <section id="catering" class="grid col3">
+        <div class="col-8_sm-12">
+        <p>This is where information about catering can go.</p><br>
+            <p>Sed malesuada nulla est, nec ultrices tellus scelerisque in. Cras eu justo mattis, euismod 
+                nunc euismod, suscipit orci. Quisque consectetur vel elit eget ornare. Praesent quis malesuada 
+                neque. Sed efficitur quam vehicula, fermentum nunc eget, tincidunt massa. Aenean eu nunc tortor. 
+                Donec enim nisi, blandit quis mauris et, vestibulum consectetur nunc. Donec facilisis mi sit amet 
+                imperdiet pulvinar. Nulla ac elit tellus. Aenean faucibus commodo ultricies. Suspendisse varius eget 
+                metus eu mattis. Duis sodales diam lacinia accumsan malesuada. Suspendisse ac euismod ex, nec mollis dui. 
+                Proin suscipit, risus venenatis sollicitudin placerat, dui nisl mattis erat, vel congue ante tellus 
+                lobortis sapien.</p>
         </div>
-        <div class="col-6">
-            <p>This is gonna be a geoloation api element... eventually</p>
+        <div class="col-4_sm-12">
+            <h2 style="text-align: center;">We're fun at parties.</h2>
         </div>
     </section>
 
@@ -77,96 +86,107 @@
         <div class="col-12">
             <h2>Customer Favorites</h2><br>
         </div>
+    <section id="favorite-photos" class="grid-spaceAround col1">
 
-        <div id="favorites-photos" class="grid padded-1">
-
-            <div class="col-4_sm-12 pad-marg-pic">
+             <div class="col-4 pad-marg-pic">
                 <div class="gallery">
                 <img src="images/jarritos1.jpg" class="image" alt="tacos">
                 <div class="overlay">OVERLAY EFFECT</div>
             </div>
             </div>
 
-            <div class="col-4_sm-12 pad-marg-pic">
+            <div class="col-4 pad-marg-pic">
                 <div class="gallery">
                 <img src="images/jarritos2.jpg" class="image" alt="tacos">
                 <div class="overlay">OVERLAY EFFECT</div>
             </div>
             </div>
 
-            <div class="col-4_sm-12 pad-marg-pic">
+            <div class="col-4 pad-marg-pic">
                 <div class="gallery">
                 <img src="images/jarritos3.jpg" class="image" alt="tacos">
                 <div class="overlay">OVERLAY EFFECT</div>
             </div>
             </div>
 
-            <div class="col-4_sm-12 pad-marg-pic">
+
+            <div class="col-4 pad-marg-pic">
                 <div class="gallery">
                 <img src="images/jarritos4.jpg" class="image" alt="tacos">
                 <div class="overlay">OVERLAY EFFECT</div>
             </div>
             </div>
 
-            <div class="col-4_sm-12 pad-marg-pic">
+            <div class="col-4 pad-marg-pic">
                 <div class="gallery">
                 <img src="images/jarritos5.jpg" class="image" alt="tacos">
                 <div class="overlay">OVERLAY EFFECT</div>
             </div>
             </div>
 
-            <div class="col-4_sm-12 pad-marg-pic">
+            <div class="col-4_sm-10 pad-marg-pic">
                 <div class="gallery">
                 <img src="images/jarritos6.jpg" class="image" alt="tacos">
                 <div class="overlay">OVERLAY EFFECT</div>
             </div>
             </div>
 
-        </div>
+            <div id="full-menu btn" class="col-12">
+                <input type="button" class="button" value="SEE OUR FULL MENU"></input>
+                <br>
+            </div>
+    </section>         
+    </section>
+    
 
-        <div id="full-menu btn" class="col-12">
-            <input type="button" class="button" value="SEE OUR FULL MENU"></input>
-            <br>
-        </div>
+    <section class="grid col2">
+        
     </section>
 
-    <section id="catering" class="grid col2">
-        <div class="col-4_sm-12">
-            <h2>We're fun at parties.</h2>
-        </div>
-        <div class="col-8_sm-12">
-            <p>This is hwere information about caatering can go.</p>
-        </div>
-    </section>
+    <section id="contact-form" class="grid col3">
+        <container class="col-6">
+            <h2>Socialize With Us.</h2>
 
-    <section id="contact-form" class="grid-center col3">
-        <container class="col-12"> 
-            <h2>Have A Question? Give Us A Shout!</h2>
-        </container>
-            <div class="col-2"></div>
-            <div class="col-6" data-push-left="off-1" data-push-right="off-1">
+            <div class="col-12 grid-center" id="fa-icons">
+                <a href="#" class="col-1 fa fa-facebook"></a>
+                <a href="#" class="col-1 fa fa-twitter"></a>
+                <a href="#" class="col-1 fa fa-instagram"></a>
+            </div>
+            <div class="form">
                 <form action="action_page.php">
-              
-                  <label for="fname">First Name</label>
+                  <label class="col-6" for="fname">First Name</label><br>
                   <input type="text" id="fname" name="firstname" placeholder="Your name..">
                     <br>
-                  <label for="lname">Last Name</label>
+                  <label for="lname">Last Name</label><br>
                   <input type="text" id="lname" name="lastname" placeholder="Your last name..">
                     <br>
-                  <label for="email">Email</label>
+                  <label for="email">Email</label><br>
                   <input type="email" id="email" name="email">
                     <br>
-                  <label for="subject">Subject</label>
+                  <label for="subject">Subject</label><br>
                   <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
                     <br>
                   <input type="submit" value="Submit">
               
                 </form>
-                
               </div>
-              <div class="col-2"></div>
+    
+            </container>
 
-    </section>
+        <div class="col-6" id="location-section">
+            <h2>FIND US.</h2>
+            <br>
+                <iframe 
+                    height="80%"
+                    width="90%"
+                    style="border:0"
+                    loading="lazy"
+                    allowfullscreen
+                    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBgozPvHy98_ILIPhm018POAcL2yauf9uM
+                        &q=Space+Needle,Seattle+WA">
+                </iframe>
+            </div>
+    </section> 
 
     <footer class="grid col3">
         <div class = "col-12">
@@ -177,4 +197,6 @@
 
 </body>
 <script src ="app.js"></script>
+<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgozPvHy98_ILIPhm018POAcL2yauf9uM&callback=myMap"></script> -->
+
 </html>
