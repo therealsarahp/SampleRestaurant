@@ -14,3 +14,21 @@ function stickNavBar() {
     navbar.classList.remove("sticky");
   }
 }
+
+// function myMap() {
+
+//     const mapProp= {
+//       center:new google.maps.LatLng(51.508742,-0.120850),
+//       zoom:5,
+//     };
+
+//     // const uluru = { lat: -25.344, lng: 131.036 };
+
+//     const map = new google.maps.Map(document.getElementById("map"),mapProp);
+
+//     // const marker = new google.maps.Marker({
+//     //     position: uluru,
+//     //     map: map,
+//     //   });
+
+//     }
