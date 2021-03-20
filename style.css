@@ -83,7 +83,7 @@ h2, h3, h4 {
     font-family: 'Cabin', sans-serif;
 }
 
- #about-section {
+ #about {
      text-align: left;
      padding: 5%; 
      border: 5px solid #fbe6c2; 
@@ -102,70 +102,84 @@ h2, h3, h4 {
      font-family: 'Cabin', sans-serif;
  }
 
+ #catering{
+     /* height:400px;  */
+     align-content: center;
+     justify-content: center;
+     padding:5%
+ }
+
 
 #picture-break {
     background-image: url('images/dan-gold-food-banner.jpg');
     background-size: cover;  
     height: 500px; 
+    border: 5px solid #fbe6c2; 
+
 }
 
 .pad-marg-pic { 
-    padding: 5px;   
+    padding: 5%;   
 
 }
 
 
 #location-section{
-    justify-content: center;
+    justify-content: right;
     align-content: center;
-    padding: 5%; 
+    padding-left: 10%; 
 }
+
+
 
 #menu-section{
     justify-content: center;
     align-content: center;
     text-align: center;
-
+    padding-top: 3%; 
+ 
 }
 
 #favorites-photos {
     padding-left: 7%; 
     padding-bottom: 3%; 
+    border: 5px solid #fbe6c2; 
+    margin-left: 5%; 
+    
 }
 
-img{
-    border-radius: 8px;
-    align-content: center;
-    justify-content: center;
-    box-shadow: #fbe6c2;
-
-}
 
 .image {
-    display: block;
-    width: 100%;
-    height: auto;
+    border-radius: 20px;
+    width: 75%; 
+    display: block; 
+    align-content: space-around;
+    justify-content: space-around;
+    margin-left:5%;
   }
 
 .gallery {
     position: relative;
     width: 100%;
-    max-width: 300px;
+    max-width: 100%;
+    align-content: center;
+    justify-content: center;
   }
 
 .overlay{
         position: absolute;
         bottom: 0;
         background: rgb(0, 0, 0);
-        background: rgba(0, 0, 0, 0.5); /* Black see-through */
+        background: rgba(0, 0, 0, 0.5); 
         color: #f1f1f1;
-        width: 100%;
+        width: 75%;
         transition: .5s ease;
         opacity:0;
         color: white;
         font-size: 20px;
         padding: 20px;
         text-align: center;
+        margin:5%
       }
 
 .gallery:hover .overlay {
@@ -187,7 +201,12 @@ img{
 
 #contact-form{
     padding-top: 5%;
+    align-content: center;
+    justify-content: center;
+}
 
+.form{
+    margin-left:5%; 
 }
 
 input[type=text],input[type=email], textarea {
@@ -220,6 +239,21 @@ input[type=text],input[type=email], textarea {
     background-color: #f0c929;
   }
   
+.fa {
+    /* padding: 10px; */
+    font-size: 20px;
+    /* width: 10px; */
+    text-align: center;
+    text-decoration: none;
+    color: #fbe6c2; 
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  
+
   footer{
       width: cover; 
       text-align: right; 
