@@ -3,8 +3,8 @@
     margin: 0;
     box-sizing: border-box;
     overflow-x: hidden;
-  }
-
+ 
+}
 .col1{
     background-color: #f48b29; 
 }
@@ -15,6 +15,10 @@
 
 .col3{
     background-color: #ac0d0d; 
+}
+
+.col4{
+    background-color:  #fbe6c2; 
 }
 
 #nav-bar{
@@ -81,12 +85,13 @@ h2, h3, h4 {
     color: #fbe6c2; 
     text-align: center;
     font-family: 'Cabin', sans-serif;
+    letter-spacing: 2px; 
+
 }
 
  #about {
      text-align: left;
      padding: 5%; 
-     border: 5px solid #fbe6c2; 
      justify-content: center;
      align-items: center; 
 
@@ -95,12 +100,23 @@ h2, h3, h4 {
  h1{
     font-family: 'Cabin', sans-serif;
     font-size: xx-large;  
+    letter-spacing: 2px;
  }
 
  p{
      color: #fbe6c2; 
      font-family: 'Cabin', sans-serif;
+     letter-spacing: 1px;
  }
+
+#signup{
+    padding: 5%; 
+    letter-spacing: 2px; 
+    align-content: center;
+    justify-content: center; 
+    padding:5%; 
+    border:5%; 
+}
 
  #catering{
      /* height:400px;  */
@@ -114,7 +130,6 @@ h2, h3, h4 {
     background-image: url('images/dan-gold-food-banner.jpg');
     background-size: cover;  
     height: 500px; 
-    border: 5px solid #fbe6c2; 
 
 }
 
@@ -136,14 +151,13 @@ h2, h3, h4 {
     justify-content: center;
     align-content: center;
     text-align: center;
-    padding-top: 3%; 
+    padding: 3%; 
  
 }
 
 #favorites-photos {
     padding-left: 7%; 
     padding-bottom: 3%; 
-    border: 5px solid #fbe6c2; 
     margin-left: 5%; 
     
 }
@@ -179,7 +193,9 @@ h2, h3, h4 {
         font-size: 20px;
         padding: 20px;
         text-align: center;
-        margin:5%
+        margin:5%; 
+        font-family: 'Cabin', sans-serif;
+
       }
 
 .gallery:hover .overlay {
@@ -197,12 +213,18 @@ h2, h3, h4 {
         text-decoration: none;
         display: inline-block;
         font-size: 16px;
+        font-family: 'Cabin', sans-serif;
+        border-radius: 4px;
+        justify-content: center; 
+        align-content: center;
       }
 
 #contact-form{
     padding-top: 5%;
     align-content: center;
     justify-content: center;
+    font-family: 'Cabin', sans-serif;
+
 }
 
 .form{
@@ -219,10 +241,14 @@ input[type=text],input[type=email], textarea {
     margin-top: 6px; 
     margin-bottom: 16px; 
     resize: both;  
+    font-family: 'Cabin', sans-serif;
+
   }
 
   label{
       color:#fbe6c2;
+      font-family: 'Cabin', sans-serif;
+
   }
   
   input[type=submit] {
@@ -233,6 +259,8 @@ input[type=text],input[type=email], textarea {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-family: 'Cabin', sans-serif;
+
   }
   
   input[type=submit]:hover {
